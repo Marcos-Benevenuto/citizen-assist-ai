@@ -65,7 +65,7 @@ Requer apenas Python 3 (sem bibliotecas externas).
 - **Informação não oficial:** o assistente não é canal de órgãos públicos e não promete integração com eles; sempre manda confirmar na fonte.
 
 ## 8. Vídeo
-Link (YouTube, não listado): _[colar o link]_
+https://youtu.be/ZhuJzhT-SJA
 
 ## 9. Conclusões
 O protótipo cumpre o fluxo completo (pergunta → busca → resposta com fonte → navegação) e trata os casos de erro. As principais limitações são o tamanho da base, a busca por palavras exatas e as fontes que precisam ser reconferidas periodicamente.
