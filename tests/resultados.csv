@@ -1,0 +1,22 @@
+n,tipo,pergunta,esperado,obtido,classificacao,tempo_ms
+1,direta,Como tirar o CPF?,DOC-001,DOC-001,ACERTO,1.087
+2,reformulacao,Quero regularizar meu CPF,DOC-001,DOC-001,ACERTO,0.879
+3,direta,Como emitir segunda via do RG?,DOC-002,DOC-002,ACERTO,0.980
+4,direta,Onde faço meu título de eleitor?,DOC-003,DOC-003,ACERTO,2.236
+5,direta,Como renovar a CNH?,DOC-004,DOC-004,ACERTO,1.321
+6,reformulacao,"Perdi a certidão de nascimento, como pedir outra?",DOC-005,DOC-005,ACERTO,0.900
+7,direta,O que é a conta gov.br prata ou ouro?,SRV-001,SRV-001,ACERTO,0.851
+8,reformulacao,Como consultar minha aposentadoria no INSS?,SRV-002,SRV-002,ACERTO,0.847
+9,direta,Como ter o cartão do SUS?,SRV-003,SRV-003,ACERTO,0.936
+10,direta,Como entrar no CadÚnico?,SRV-004,SRV-004,ACERTO,0.908
+11,reformulacao,Onde baixo a carteira de trabalho digital?,SRV-005,SRV-005,ACERTO,1.274
+12,reformulacao,"Comprei um produto com defeito, onde reclamo?",COM-001,COM-001,ACERTO,0.969
+13,reformulacao,Não tenho dinheiro para advogado,COM-002,COM-002,ACERTO,0.782
+14,direta,Como denunciar violência contra idoso?,COM-003,COM-003,ACERTO,0.794
+15,reformulacao,"Preciso de ajuda, sofri violência doméstica",COM-004,COM-004,ACERTO,0.821
+16,direta,Como funciona o Conselho Tutelar?,COM-005,COM-005,ACERTO,0.765
+17,fora do tema,Qual a previsão do tempo amanhã?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,0.775
+18,fora do tema,Como fazer a matrícula na escola?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,1.090
+19,limite: entrada vazia,,VAZIA,VAZIA,ACERTO,0.001
+20,limite: consulta ambígua,violência,AMBIGUA,AMBIGUA,ACERTO,1.078
+21,limite: sem resposta confiável,Como declarar imposto de renda?,SEM_RESPOSTA,SEM_RESPOSTA,ACERTO,1.855

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "DOC-001",
+    "tema": "documentacao",
+    "titulo": "CPF: inscrição e regularização",
+    "palavras_chave": ["cpf", "cadastro de pessoa fisica", "inscricao no cpf", "regularizar cpf", "cpf irregular", "tirar cpf", "consultar cpf"],
+    "orientacao": "O CPF é administrado pela Receita Federal. A inscrição, a consulta da situação cadastral e a regularização de pendências podem ser feitas pelo site ou aplicativo da Receita Federal, e também em órgãos conveniados.",
+    "referencia": "https://www.gov.br/receitafederal/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["DOC-002", "SRV-001", "SRV-002"]
+  },
+  {
+    "id": "DOC-002",
+    "tema": "documentacao",
+    "titulo": "RG / Carteira de Identidade: emissão e 2ª via",
+    "palavras_chave": ["rg", "carteira de identidade", "segunda via do rg", "identidade", "carteira de identidade nacional", "emitir rg", "2 via rg"],
+    "orientacao": "A emissão e a segunda via da carteira de identidade são feitas pelos órgãos de identificação do seu estado, geralmente com agendamento. Leve um documento com foto e a certidão de nascimento ou casamento, conforme a exigência do seu estado.",
+    "referencia": "https://www.gov.br/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["DOC-005", "DOC-001", "DOC-003"]
+  },
+  {
+    "id": "DOC-003",
+    "tema": "documentacao",
+    "titulo": "Título de eleitor",
+    "palavras_chave": ["titulo de eleitor", "titulo eleitoral", "eleitor", "votar", "tse", "regularizar titulo", "zona eleitoral"],
+    "orientacao": "O título de eleitor é emitido e regularizado pela Justiça Eleitoral. O serviço pode ser solicitado no site do TSE ou no cartório eleitoral da sua cidade. Existe também o e-Título, a versão digital.",
+    "referencia": "https://www.tse.jus.br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["DOC-002", "DOC-001", "SRV-001"]
+  },
+  {
+    "id": "DOC-004",
+    "tema": "documentacao",
+    "titulo": "CNH: emissão e renovação",
+    "palavras_chave": ["cnh", "carteira de motorista", "carteira nacional de habilitacao", "renovar cnh", "habilitacao", "detran", "dirigir", "cnh digital"],
+    "orientacao": "A emissão e a renovação da CNH são feitas pelo Detran do seu estado. A CNH Digital pode ser acessada em aplicativo oficial do governo federal. Consulte o Detran do seu estado para ver exames e taxas.",
+    "referencia": "https://www.gov.br/transportes/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["DOC-002", "DOC-001", "SRV-001"]
+  },
+  {
+    "id": "DOC-005",
+    "tema": "documentacao",
+    "titulo": "Certidão de nascimento: 2ª via",
+    "palavras_chave": ["certidao de nascimento", "certidao", "segunda via da certidao", "registro civil", "cartorio", "2 via certidao", "certidao de casamento"],
+    "orientacao": "A segunda via da certidão é pedida no cartório de registro civil onde o registro foi feito. Também é possível solicitar pelo portal oficial dos cartórios de registro civil, sem precisar ir pessoalmente.",
+    "referencia": "https://registrocivil.org.br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["DOC-002", "DOC-001", "COM-005"]
+  },
+  {
+    "id": "SRV-001",
+    "tema": "servicos",
+    "titulo": "Conta gov.br e seus níveis",
+    "palavras_chave": ["gov.br", "conta gov.br", "govbr", "nivel prata", "nivel ouro", "nivel bronze", "login unico", "conta prata", "conta ouro", "selo ouro", "selo prata"],
+    "orientacao": "A conta gov.br dá acesso a vários serviços públicos digitais. Ela tem os níveis bronze, prata e ouro. Quanto maior o nível, mais serviços ficam disponíveis, e a confirmação de identidade (por biometria ou banco, por exemplo) aumenta o nível.",
+    "referencia": "https://www.gov.br/governodigital/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["SRV-002", "SRV-005", "DOC-001"]
+  },
+  {
+    "id": "SRV-002",
+    "tema": "servicos",
+    "titulo": "Meu INSS: benefícios e atendimento",
+    "palavras_chave": ["inss", "meu inss", "aposentadoria", "beneficio", "pericia", "auxilio", "pensao", "extrato de contribuicao", "cnis", "agendar atendimento inss"],
+    "orientacao": "O Meu INSS (site e aplicativo) permite consultar benefícios, pedir aposentadoria e outros serviços, ver extratos e agendar atendimento. É preciso ter uma conta gov.br para entrar.",
+    "referencia": "https://meu.inss.gov.br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["SRV-001", "SRV-005", "SRV-004"]
+  },
+  {
+    "id": "SRV-003",
+    "tema": "servicos",
+    "titulo": "SUS: Cartão Nacional de Saúde e Meu SUS Digital",
+    "palavras_chave": ["sus", "cartao do sus", "cartao nacional de saude", "cns", "meu sus digital", "saude publica", "atendimento medico", "vacina", "caderneta de vacinacao"],
+    "orientacao": "O atendimento no SUS é gratuito. O número do Cartão Nacional de Saúde pode ser consultado no aplicativo Meu SUS Digital ou solicitado em uma unidade básica de saúde. No aplicativo também é possível ver vacinas registradas.",
+    "referencia": "https://www.gov.br/saude/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["SRV-001", "SRV-004", "DOC-001"]
+  },
+  {
+    "id": "SRV-004",
+    "tema": "servicos",
+    "titulo": "CadÚnico: cadastro para programas sociais",
+    "palavras_chave": ["cadunico", "cadastro unico", "bolsa familia", "baixa renda", "cras", "programas sociais", "beneficio social"],
+    "orientacao": "O CadÚnico é o cadastro usado para acessar programas sociais do governo, como o Bolsa Família. O cadastro é feito presencialmente no CRAS ou no setor indicado pela prefeitura da sua cidade, com documentos de todos os moradores da casa.",
+    "referencia": "https://www.gov.br/mds/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["SRV-002", "SRV-003", "COM-002"]
+  },
+  {
+    "id": "SRV-005",
+    "tema": "servicos",
+    "titulo": "Carteira de Trabalho Digital",
+    "palavras_chave": ["carteira de trabalho", "carteira de trabalho digital", "ctps", "emprego", "contrato de trabalho", "seguro desemprego", "carteira digital"],
+    "orientacao": "A Carteira de Trabalho Digital pode ser acessada pelo aplicativo oficial, entrando com a conta gov.br. Nela é possível ver os contratos de trabalho registrados e outras informações do vínculo.",
+    "referencia": "https://www.gov.br/trabalho-e-emprego/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["SRV-001", "SRV-002", "COM-002"]
+  },
+  {
+    "id": "COM-001",
+    "tema": "comunitarias",
+    "titulo": "Direitos do consumidor: onde reclamar",
+    "palavras_chave": ["procon", "consumidor", "direito do consumidor", "reclamar", "reclamacao", "produto com defeito", "defeito", "garantia", "consumidor.gov.br", "devolucao", "cobranca indevida"],
+    "orientacao": "Em problemas de consumo, guarde nota fiscal, comprovantes e protocolos e tente resolver primeiro com a empresa. Se não resolver, é possível registrar reclamação no Procon da sua cidade ou na plataforma consumidor.gov.br.",
+    "referencia": "https://www.consumidor.gov.br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["COM-002", "SRV-001", "COM-003"]
+  },
+  {
+    "id": "COM-002",
+    "tema": "comunitarias",
+    "titulo": "Defensoria Pública: assistência jurídica gratuita",
+    "palavras_chave": ["defensoria publica", "defensoria", "advogado gratuito", "assistencia juridica", "justica gratuita", "dinheiro para advogado", "nao posso pagar advogado", "advogado", "dpu"],
+    "orientacao": "A Defensoria Pública oferece orientação jurídica gratuita para quem não pode pagar um advogado. O atendimento costuma exigir comprovação de renda e documentos pessoais. Procure a Defensoria do seu estado ou a Defensoria da União, conforme o caso.",
+    "referencia": "https://www.dpu.def.br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["COM-001", "COM-003", "SRV-004"]
+  },
+  {
+    "id": "COM-003",
+    "tema": "comunitarias",
+    "titulo": "Disque 100: denúncia de violação de direitos humanos",
+    "palavras_chave": ["disque 100", "ligue 100", "denunciar", "violacao de direitos humanos", "direitos humanos", "violencia contra idoso", "violencia contra crianca", "maus tratos", "abuso", "pessoa com deficiencia", "idoso", "violencia"],
+    "orientacao": "O Disque 100 recebe denúncias de violações de direitos humanos, como maus-tratos contra crianças, idosos e pessoas com deficiência. A ligação é gratuita. Em risco imediato, ligue também para a polícia (190).",
+    "referencia": "https://www.gov.br/mdh/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["COM-004", "COM-005", "COM-002"]
+  },
+  {
+    "id": "COM-004",
+    "tema": "comunitarias",
+    "titulo": "Ligue 180: atendimento à mulher",
+    "palavras_chave": ["ligue 180", "central de atendimento a mulher", "violencia domestica", "violencia contra a mulher", "agressao", "mulher", "lei maria da penha", "maria da penha", "violencia", "medida protetiva"],
+    "orientacao": "O Ligue 180 é a central de atendimento à mulher em situação de violência. A ligação é gratuita e o serviço orienta sobre direitos e serviços de proteção. Em risco imediato, ligue para a polícia (190).",
+    "referencia": "https://www.gov.br/mdh/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["COM-003", "COM-002", "COM-005"]
+  },
+  {
+    "id": "COM-005",
+    "tema": "comunitarias",
+    "titulo": "Conselho Tutelar: proteção de crianças e adolescentes",
+    "palavras_chave": ["conselho tutelar", "crianca", "adolescente", "eca", "estatuto da crianca e do adolescente", "direitos da crianca", "protecao de crianca", "negligencia", "menor de idade"],
+    "orientacao": "O Conselho Tutelar atua na proteção dos direitos de crianças e adolescentes e existe em cada município. Qualquer pessoa pode comunicar situações de risco, como negligência e maus-tratos.",
+    "referencia": "https://www.gov.br/mdh/pt-br",
+    "data_verificacao": "2026-11-19",
+    "relacionados": ["COM-003", "DOC-005", "COM-002"]
+  }
+]
