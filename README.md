@@ -3,7 +3,7 @@
 Global Solution 2026.2 – FIAP (CitizenTech)
 
 
-**Integrantes / RMs: Macos Junio rm570834
+Macos Junio rm570834
 
 ## 1. Problema, público e temas
 Cidadãos costumam encontrar informações dispersas ou difíceis sobre documentos, serviços e direitos. O **Citizen Assist AI** é um assistente textual em Python que responde dúvidas simples do cotidiano a partir de uma base de orientações verificadas, sempre citando a fonte e avisando quando não há resposta suficiente.
